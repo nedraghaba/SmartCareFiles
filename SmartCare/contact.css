@@ -1,0 +1,267 @@
+
+.Display-2{
+    max-width: 954px;
+}
+.details-card {
+    background: transparent;
+    min-width: 750;
+    margin-left: 20%;
+    
+    
+}
+
+.card-content {
+    
+    border: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+    display: inline-block;
+    margin-left: 40%;
+}
+.col-md-3{
+    padding-right: 5px!important;
+    padding-bottom: 10px;
+}
+
+.container2{
+    margin-right: 15%;
+    margin-top: 20%;
+}
+.card-img {
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+    z-index: 1;
+}
+.card-img img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+
+.card-img span {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    background: #72033310;
+    padding: 6px;
+    color: #cd486b;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    transform: translate(-50%,-50%);
+}
+.card-img span:hover{
+    color:#d4b81a ;
+}
+.card-img span h4{
+    font-size: 12px;
+    margin:0;
+    padding:10px 5px;
+     line-height: 0;
+}
+.card-desc {
+    
+padding: 10px;
+margin-bottom: 0;
+min-width: 200px;
+height: 88px!important;
+}
+.cdt{
+    padding: 13px;
+}
+.cde{
+    padding: 13px;
+}
+@font-face{ font-family:AvenirLTStd-Book;
+    src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+.card-desc h2 {
+color: white;
+font-family:AvenirLTStd-Book;
+font-size: 19px;
+line-height: 1.3em;
+margin-top: 0;
+
+padding: 0;
+
+text-align: center;
+}
+@font-face{ font-family:AvenirLTStd-Book;
+    src:url('Avenir-Font/avenir_ff/AvenirLTStd-Book.otf');}
+.card-desc p {
+    font-family:AvenirLTStd-Book;
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    
+    line-height: 1.5;
+    margin: 0px;
+    margin-bottom: 20px;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    float: right;
+}
+.adress{
+    margin-bottom: 0!important;
+    padding-top: 10!important;
+}
+.un{
+    background-color:#026c49 ;
+    
+}
+.deux{
+    background-color: #009966;
+    
+}
+.trois{
+    background-color:  #33cc99;
+    
+}
+.quatre{
+    background-color:  #53cea5;
+}
+@media only screen and (max-width:474px){
+    .details-card{
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+   
+}
+@media only screen and (max-width:375px){
+    .details-card{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
+    
+}
+@media  (max-width:767px)  and (min-width:475px){
+    .details-card{  
+        margin-left: 15%!important;
+        
+    }
+    .col-md-3{
+        width: 50%!important;
+        padding-bottom: 15px!important;
+    }
+    
+    
+}
+@media screen and (min-width:768px) {
+    .details-card{  
+        margin-left: 10%!important;
+        height: 200px!important;
+
+        
+    }
+    .col-md-3{
+        padding-bottom: 15px!important;
+        max-width: 50%!important;
+    }
+    .card-content{
+        position: relative;
+        left: 10%;
+        right: 10%;
+    }
+    
+}
+        
+@media (max-width:919px) and (min-width:863px){
+    .details-card{  
+        
+        width: 1000px!important;
+float: center;
+        margin-left: 2%!important;
+    }
+    .col-md-3{
+        padding-bottom: 15px!important;
+        max-width: 25%!important;
+    }
+    .card-content{
+        position: relative;
+       right: -20%!important;
+        
+    }
+    .container2{
+        margin-right: 15%;
+        margin-top: 10%;
+    }
+    
+    
+}  
+    
+    @media (max-width:1024px) and (min-width:920px){
+        .details-card{  
+            
+            width: 1000px!important;
+    float: center;
+            margin-left: 7%!important;
+        }
+        .col-md-3{
+            padding-bottom: 15px!important;
+            max-width: 25%!important;
+        }
+        .card-content{
+            position: relative;
+           right: -20%!important;
+            
+        }
+        .container2{
+            margin-right: 15%;
+            margin-top: 10%;
+        }
+        
+        
+    }
+    @media screen and (min-width: 1025px){
+        .details-card{  
+            height: 150px!important;
+            width: 1000px!important;
+    float: center;
+            margin-left:7%!important;
+        }
+        .col-md-3{
+            padding-bottom: 15px!important;
+            max-width: 25%!important;
+        }
+        .card-content{
+            position: relative;
+           right: -20%!important;
+            
+        }
+        .container2{
+            margin-right: 15%;
+            margin-top: 10%;
+        }
+        
+        
+    }
+    @media screen and (min-width:1250px){
+        .details-card{  
+            height: 150px!important;
+            width: 1000px!important;
+    float: center;
+            margin-left:18%!important;
+        }
+        .col-md-3{
+            padding-bottom: 15px!important;
+            max-width: 25%!important;
+        }
+        .card-content{
+            position: relative;
+           right: -20%!important;
+            
+        }
+        .container2{
+            margin-right: 15%;
+            margin-top: 20%;
+        }
+        
+        
+    }
+    
+
